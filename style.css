@@ -1,0 +1,215 @@
+/* 
+THEME BY 
+JOSEPH FLORDELIZA 
+3SUN01
+*/
+
+header{ 
+	background:#F3E6C3 }
+
+.logo{ 
+	height: 220px; }
+
+.logo:hover{ 
+	opacity: 0.5; 
+	transition: 0.5s linear; }
+
+h1{ font-weight: 700;}
+
+nav { 
+
+	background:#55746F;
+	text-transform: uppercase; }
+
+nav ul{ 
+	list-style-type:none; 
+	margin:0; 
+	padding:0;
+	text-align: center;
+	display: inline-flex;  }	
+
+nav a{
+	display: block;
+	color:#F3E6C3;
+	padding:1rem 4rem ; }
+
+nav a.active{
+	background:#194756;}
+
+nav a:hover{
+	background:#194756; 
+	color:#fff; 
+	text-decoration: none; 
+	transition: 0.3s }
+
+p{ line-height: 1.6;
+   font-size: 16px;
+   font-weight: 100 }
+
+.hero h1{ 
+	padding: 1rem 0 1rem;
+	font-size: 36px;
+	text-align: center;
+	color:#361E12; }
+
+.hero .img-fluid{
+	width:100%;
+	height:auto;}
+
+.pods{
+	padding-bottom: 2rem;}
+
+.pods .img-fluid{
+	width:100%;
+	height:auto;}
+
+.pods h2{ 
+	padding: 2rem 0 1rem;
+	font-size: 27px;
+	color:#194756; }
+
+.ghost{ border:solid 1px; 
+	    border-color:#194756;
+	    padding: .5rem 3rem;
+	    background-color:#fff;}
+.ghost:hover{ 
+	    background-color:#194756; 
+	    color:#fff;
+	    transition: 0.3s  }
+
+
+/**********FOOTER***********/
+footer{ 
+	background-color: #222222;
+	padding: 2rem 0 1rem  }
+
+footer p{ 
+	color:#fff;
+	font-size: 12px }
+
+.social-icon{
+	padding:1rem 1rem 0rem;}
+
+.social-icon:hover{
+	opacity: 0.5;;
+	transition:0.3s;}
+	
+/**********ABOUT US************/
+
+.about-block-1{
+	height:350px;
+	background-image: url(images/about-hero.png);
+	 }
+
+.about-block-1 h1,.services-block-1 h1,.contact-block-1 h1{
+	color:#fff;
+	padding:9rem 0  ;
+	text-align: center;}
+
+.about-block-2{
+	padding:3rem 0 3rem}
+
+.about-block-2 h2{
+	color:#194756;
+	text-align: left;
+	padding:3rem 0 0rem;  }
+
+.about-block-2 hr{ background-color:#F3E6C3;  }
+
+.about-block-2 p{
+	padding:0 0 2rem;  }
+
+.about-block-2 .img-fluid{
+	padding:2 0 2rem; 
+	width:100%;
+	height:auto;  }
+
+.about-block-3{
+	margin:0;
+	height:500px;
+	background-image: url(images/about-block-3.jpg);
+	background-size: cover; }
+
+/**********SERVICES************/
+
+.services-block-1{
+	height:350px;
+	background-image: url(images/services-block-1.jpg);
+	padding: 4rem 0 0;
+	text-align:center }
+
+.services-block-1 h1{
+	color:#fff; 
+	padding: 5rem 0;}	
+
+.services-block-2{
+	padding: 4rem 0 4rem;
+	text-align:center }
+
+.services-block-2 hr{
+    height: 1px; 
+    background:#F3E6C3;}
+
+ .services-block-2 .col-xl-12{
+ 	text-align: left;
+    padding: 0 0 1rem;}
+
+.services-block-2 h4{
+	color:#361E12 }
+
+.services-block-2 h5{
+	color:#55746F }
+
+ .services-block-2 .img-fluid{
+	width: 150px;
+    height: auto;}
+ 
+
+ .services-block-2 .img-fluid:hover{
+ 	transition: 0.3s ;
+	opacity: 0.5;
+    height: auto;}
+
+.services-block-2 .img-fluid{
+	padding-bottom: 1rem;}
+
+.services-block-3{
+	padding: 2rem 0 4rem;
+	text-align:center }
+
+.services-block-3 .container{
+	padding: 2rem;
+	background-color: #F3E6C3;
+    border-radius: 25px;}
+
+.services-block-3 .img-fluid{
+	width: 80px;
+	height: 100px;
+	padding-bottom: 1rem;}
+
+.services-block-3 .ghost{
+ 	background-color:#F3E6C3 }
+
+.services-block-3 .ghost:hover{
+ 	background-color:#194756 }
+
+/**********CONTACT************/
+.contact-block-1{
+	background-repeat: no-repeat;;
+	height:350px;
+	background-image: url(images/contact-block-1.jpg);
+	 }
+
+.contact-block-2 { 
+	padding: 4rem;0 }
+
+.contact-block-2 .col-xl-5{
+	padding: 1rem;0 }
+
+.contact-block-2 .col-xl-5 h3{
+    color:#194756 ;}
+
+.contact-block-2 .col-xl-5 hr{
+	height: 1px; 
+	max-width: 250px;
+    background:#F3E6C3;
